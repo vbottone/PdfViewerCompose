@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     id("com.google.devtools.ksp")
     alias(libs.plugins.kotlin.compose)
-    id("maven-publish")
+    `maven-publish`
 }
 
 android {
@@ -63,6 +63,9 @@ afterEvaluate {
                 artifactId = "pdf-viewer-compose"
                 version    = "1.0"
             }
+        }
+        repositories {
+            mavenLocal()
         }
     }
 }
