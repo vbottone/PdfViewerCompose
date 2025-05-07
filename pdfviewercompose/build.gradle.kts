@@ -60,8 +60,8 @@ afterEvaluate {
                 from(components["release"])
 
                 groupId    = "com.github.valeriobottone"
-                artifactId = "pdf-viewer-compose"
-                version    = "1.1.0"
+                artifactId = "pdfviewercompose"
+                version    = "1.2"
             }
         }
     }
