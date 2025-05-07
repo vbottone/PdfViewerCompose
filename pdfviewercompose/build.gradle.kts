@@ -61,7 +61,7 @@ afterEvaluate {
 
                 groupId    = "com.github.valeriobottone"
                 artifactId = "pdf-viewer-compose"
-                version    = "1.0"
+                version    = "1.1.0"
             }
         }
     }
